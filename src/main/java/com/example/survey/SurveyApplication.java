@@ -12,7 +12,7 @@ public class SurveyApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(SurveyApplication.class, args);
 	}
-
+	
 	@GetMapping("/")
 	public String index(){
 		return "<h1>Hello Spring Boot</h1>";
